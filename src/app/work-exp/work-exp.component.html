@@ -1,0 +1,11 @@
+<h2>WORK EXPERIENCE</h2>
+
+<div *ngFor="let wh of workHistory">
+<span > {{ wh.name}}</span>
+<span> | {{ wh.address}} <span>
+</span>| {{ wh.date}}</span>
+<ul>
+    <li *ngFor="let exp of wh.experience"> {{ exp }}
+
+</ul>
+
